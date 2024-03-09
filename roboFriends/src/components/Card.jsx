@@ -3,8 +3,8 @@ import React from 'react'
 const Card = ({ id, name, email }) => {
   return (
     <>
-      <div className='text-center bg-emerald-200 inline-block rounded-lg 
-      p-3 m-2 border-2 shadow-lg transition-transform duration-300
+      <div className='text-center bg-emerald-200 inline-block 
+      rounded-lg p-3 m-2 border-2 shadow-lg transition-transform duration-300
       hover:scale-105 active:scale-95'>
         <img alt='robots' src={`https://robohash.org/${id}?200x200`} />
         <div>

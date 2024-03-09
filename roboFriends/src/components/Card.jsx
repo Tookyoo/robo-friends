@@ -8,7 +8,7 @@ const Card = ({ id, name, email }) => {
       hover:scale-105 active:scale-95'>
         <img alt='robots' src={`https://robohash.org/${id}?200x200`} />
         <div>
-          <h1 className='font-black text-xl p-4'>{name}</h1>
+          <h2 className='font-black text-xl p-4'>{name}</h2>
           <p>{email}</p>
         </div>
       </div>
